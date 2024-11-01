@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot');
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('../fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.author-social-icon, a.author-social-icon:before {
+    font-family: 'Mono Social Icons Font'; 
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a.author-social-icon:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 130%;
+}
+
+a.author-social-icon {
+    background: #9f9f9f;
+    padding: 7px 5px 3px 5px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* ====== Stylish Author Bio: Fonted ====== */
+
+.author-title-box{
+  width: 100%;
+}
+
+.author-bio-wrapper{
+	overflow: hidden;
+	width: 100%;
+}
+.author-bio-img{
+	float: left;
+  	overflow: hidden;
+}
+.author-bio-title{
+  	float: right;
+  	width: 75%;
+}
+.author-bio-title h2.author-name,
+.author-bio-title h6.author-title{
+	font-family: "Segoe UI",Arial,Sans-Serif !important;
+	font-weight: 500 !important;
+	margin: 0px;
+}
+.author-bio-title h2.author-name{
+	margin: 0px !important;
+}
+.author-bio-title h2.author-name a{
+	box-shadow: none !important;
+	border-bottom:none !important;
+	text-decoration: none;
+}
+.author-bio-title h6.author-title{
+}
+.author-bio-description{
+}
+.cleared {
+  clear: both;
+}
+
+.author-title-box h3{
+	width: 40%;
+	margin:0 auto;  
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight:normal;
+	text-align:center;
+	color:#2196f3;
+	font-size:20px;
+	padding:15px;
+	font-weight:bold;
+	border-radius:5px;
+}
+
+.author-bio-section{
+  	position:relative; 
+	padding: 20px;
+  	margin-top: 30px;
+}
+
+.author-details{
+	font-family: "Segoe UI",Arial,Sans-Serif;
+    font-size: 14px;
+    line-height: normal;
+}
+.author-details h2{
+	text-transform: capitalize;
+}
+.author-details h2 a{
+}
+.author-social-profile{
+}
+ul.author-icons li a{
+	box-shadow:none;
+	border-bottom: none;
+	text-decoration: none;
+}
+ul.author-icons li a i{
+	font-size:24px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;	
+}
+.author-details h2 a:hover,
+ul.author-icons li a i:hover{
+	color:#92278f;
+}
+
+.author-details img {
+	float: left;
+	position: relative;
+	border-radius: 0% !important;
+}
+
+.author-icons{
+	list-style:none;
+	margin:5px auto 0px auto;
+	width:100%;
+}
+ul.author-icons li{
+	display:inline;
+	margin-right:10px;
+}
+
+
+/* ===== Responsive Issue =========== */
+
+
+@media screen and (max-width: 1255px) {
+	.author-bio-title{
+		width: 100% !important;
+		text-align: center;
+	}
+	.author-bio-img{
+		float: none;
+		width: 20%;
+		display: inline-block;
+	}
+	.author-bio-img-wrapper{
+		width: 100%;
+  		text-align: center;
+	}
+}
+
+
+/* ==== Social Media Icon Color ==== */
+
+.weblink a{	color: #007acc;}
+.facebook a{ color: #3b5998; }
+.twitter a{ color: #4099FF; }
+.google-plus a{ color: #D34836; }
+.linkedin a{ color:#007bb5;}
+.flickr a{ color:#ff0084;}
+.tumblr a{ color:#32506d;}
+.vimeo a{ color:#aad450;}
+.youtube a{ color:#bb0000;}
+.instagram a{ color:#e95950;}
+.pinterest a{ color:#cb2027;}
+.behance a{ color:#1769ff;}
+.blogger a{ color:#fb8f3d;}
+.delicious a{ color:#205cc0;}
+.digg a{ color:#0093cc;}
+.dribble a{ color:#ea4c89;}
+.myspace a{ color:#F5F5DC;}
+.picasa a{ color:pink;}
+.reddit a{ color:#FF5700;}
+.skype a{ color:#12A5F4;}
+.stackoverflow a{ color:#ef8236;}
+.wordpress a{ color:#21759b;}
+.author-rss a{ color:orange;}
